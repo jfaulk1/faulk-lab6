@@ -1008,11 +1008,11 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>full_radio_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>10</xilinx:coreRevision>
+      <xilinx:coreRevision>11</xilinx:coreRevision>
       <xilinx:upgrades>
         <xilinx:canUpgradeFrom>user.org:user:full_radio:1.0</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2023-11-13T06:33:37Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2023-11-13T19:06:41Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.df@1ce88294_ARCHIVE_LOCATION">/home/doug/class/rpl_github/ip_repo/full_radio_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.df@edb5609_ARCHIVE_LOCATION">/home/doug/class/rpl_github/ip_repo/full_radio_1.0</xilinx:tag>
