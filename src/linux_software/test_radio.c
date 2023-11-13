@@ -55,7 +55,7 @@ void print_benchmark(volatile unsigned int *periph_base)
     unsigned int start_time;
     unsigned int stop_time;
 	unsigned int elapsed_time; 
-	unsigned int bytes_transferred = 64; // 16 FP frequencies transferred; FP = 4 bytes
+	unsigned int bytes_transferred = 8192; // 16 FP frequencies transferred; FP = 4 bytes
 	float time_spent;
 	float throughput; 
 	
@@ -70,7 +70,7 @@ void print_benchmark(volatile unsigned int *periph_base)
     // please insert your code here for calculate the actual throughput in Mbytes/second
     // how much data was transferred? How long did it take? 
     time_spent = (elapsed_time * 0.000000008); // # of clks divided by 125MHz for total time in secs 
-	throughput = bytes_transferred/time_spent;
+	throughput = (bytes_transferred/time_spent) * 0.000001;
     printf("You transferred %u bytes of data in %f seconds\n", bytes_transferred, time_spent);
     printf("Measured Transfer throughput = %f Mbytes/sec\n", throughput);
 }
